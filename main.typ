@@ -63,6 +63,19 @@ A software developer interested in various programming domains. Core member of T
 
 = Personal Projects
 #exp(
+  "Verso",
+  "Author",
+  "https://github.com/european-browser/verso",
+  "",
+  [
+    A web browser that plays old world blues to build new world hope.
+    - Everything is built from the ground up. This is not a chromium clone.
+    - Focus on modularity and security.
+    - Written in Rust with love and dreams.
+  ]
+)
+
+#exp(
   "Tauri",
   "Core Member",
   "https://github.com/tauri-apps/tauri",
@@ -80,6 +93,5 @@ A software developer interested in various programming domains. Core member of T
 - *System Programming*: familiar with Linux programming interface and also other Unix-like OSes. Understand general architecture of the operating system and know how to write one from #link("https://youtu.be/vbZU7ABrAiE")[scratch].
 
 = Miscellaneous
-- Languages: English - fluent, Chinese - native, Taiwanese - native.
+- Languages: English - fluent, Chinese - native, Taiwanese - native, Japanese - N3.
 - Member of `Tauri`, `rust-tw`, and more, contributed to `rust`, `async-std`, `veloren`, `tauri`, `riscv-opcodes`, `grcov`, `windows-rs`, `gtk-rs`, `winit`, and other projects.
-
