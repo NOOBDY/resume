@@ -1,11 +1,13 @@
 #let cv(author: "", contacts: (), body) = {
   set document(author: author, title: author)
-  set text(font: "Linux Libertine", lang: "en")
+  set text(font: ("Linux Libertine", "Noto Serif CJK TC"), lang: "en")
   
   show heading: it => [
     #pad(bottom: -10pt, [#smallcaps(it.body)])
     #line(length: 100%, stroke: 1pt)
   ]
+
+  show link: underline
 
   // Author
   align(center)[
@@ -40,6 +42,7 @@
   )
 }
 
+
 #let exp(place, title, location, time, details) = {
   pad(
     bottom: 10%,
@@ -57,4 +60,3 @@
   )
   details
 }
-

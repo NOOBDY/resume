@@ -1,97 +1,73 @@
 #import "resume.typ": *
 
 #show: cv.with(
-  author: "Wu Yu Wei",
+  author: "Tommy Huang 黃政",
   contacts: (
-    [#icon("mail.svg") #link("mailto:yuweiwu@pm.me")],
-    [#icon("home.svg") #link("https://wusyong.github.io/")[wusyong.github.io]],
-    [#icon("github.svg") #link("https://github.com/wusyong")[Github]],
-    [#icon("linkedin.svg") #link("https://www.linkedin.com/in/yu-wei-wu-23630a155/")[LinkedIn]],
+    [#icon("mail.svg") #link("mailto:htommyf12@gmail.com")],
+    [#icon("github.svg") #link("https://github.com/NOOBDY")],
   )
 )
 
-= Brief
-A software developer interested in various programming domains. Core member of Tauri cross-platform framework. Proficient in Rust and C, but comfortable with most general programming languages.
-
 = Education
 #exp(
-  "National Chiao Tung University",
+  "National Taipei University of Technology",
   "Bachelor in Computer Science",
-  "Taiwan",
-  "08/2012 – 07/2016",
+  "",
+  "Sep 2021 - Jun 2025",
   []
 )
 
 = Experience
 #exp(
-  "CrabNebula Ltd.",
-  "Director of Engineering",
-  "Malta",
-  "10/2022 – Present",
+  "EVOX 易喂",
+  "Software Engineering Intern",
+  "",
+  "Jul 2023 - Jan 2024",
   [
-    - Directing large open-source projects with people across the globe. Developed and maintained many well-known web browser libraries. Researched the boundary of web engines and pushed them forward.
-  ]
-)
-#exp(
-  "Semnet Ltd.",
-  "(System Programming) Senior Software Engineer",
-  "Ireland",
-  "01/2021 – 08/2022",
-  [
-    - Focus on building foundation of all services across multiple platforms. Resolved all platform-specific issues while bringing each system’s capability for the team to build features on top of them.
-    - Researched possible goals and designed the best solutions for the company to promote the products.
-  ]
-)
-#exp(
-  "Chuehfu Technology Ltd.",
-  "(Distributed Storage Systems) Senior Software Engineer",
-  "Taiwan",
-  "08/2019 – 11/2020",
-  [
-    - Developed the protocol of main system service. Built several essential components around the distributed system, like async actor-based runtime, MPMC channel, and a fully hand-made protocol implementation to communicate with Cassandra / ScyllaDB.
-  ]
-)
-#exp(
-  "BiiLabs Inc.",
-  "(Cloud Services) Software Engineer",
-  "Taiwan",
-  "01/2018 – 08/2019",
-  [
-    - Improved computation bottleneck significantly with various approaches like SSE/AVX SIMD acceleration and building embedded FPGA cluster with rabbitMQ.
+    - Role: Developing internal testing services, researching C and Golang integration solutions
+    - Technologies: Golang, Angular
   ]
 )
 
-= Personal Projects
+= Notable Projects
 #exp(
-  "Verso",
-  "Author",
-  "https://github.com/european-browser/verso",
+  "Practical Tools for Simple Design",
+  link("https://github.com/ntut-open-source-club/practical-tools-for-simple-design"),
+  "Apr 2023 - Current",
   "",
   [
-    A web browser that plays old world blues to build new world hope.
-    - Everything is built from the ground up. This is not a chromium clone.
-    - Focus on modularity and security.
-    - Written in Rust with love and dreams.
+    A cross-platform, complete rewrite of our (#link("https://github.com/ntut-xuan/LeistungsstarkesGameFramework")[OOP course game framework] with an emphasis on user ergonomics and correctness
+    - Role: Overall architectural design, OpenGL abstraction implementation, and critical path optimizations.
+    - Technologies: C++, SDL2, OpenGL, CMake, Doxygen
   ]
 )
 
 #exp(
-  "Tauri",
-  "Core Member",
-  "https://github.com/tauri-apps/tauri",
+  "TWP",
+  link("https://github.com/jykuo-love-shiritori/twp"),
+  "Oct 2023 - Jan 2024",
   "",
   [
-    A framework that builds smaller, faster, and more secure desktop and mobile applications with a web frontend.
-    - Compatible with any front-end framework.
-    - Supports cross-platform compilation to bundle binaries for major desktop platforms.
+    A C2C e-commerce store for our DBMS course
+    - Role: Dev-environment setup, partial OAuth2.0 implementation, server management and deployment, and providing general technical assistance.
+    - Technologies: PostgreSQL, Golang, React, Docker, MinIO, NGINX, Cloudflare
+  ]
+)
+
+#exp(
+  "Indigo",
+  link("https://github.com/NOOBDY/Indigo"),
+  "Aug 2022 - Jun 2023",
+  "",
+  [
+    A 3D real-time renderer featuring PBR, SSAO, dynamic lighting, and more.
+    - Role: Basic rendering functionality, architectural refactoring, SSAO implementation.
+    - Technologies: C++, OpenGL, CMake
   ]
 )
 
 = Skills
-- *Programming Language*: *multilingual* (not limited to any specific language), especially experienced in Rust C, comfortable with C++ Haskell C\# Objective-C Python Swift Racket (in random order).
-- *Rust*: familiar with Cargo and Bazel, understand procedural macros, Rust asynchronous runtimes, and unsafe usage, contributed to Rust compiler and its tools from time to time.
-- *System Programming*: familiar with Linux programming interface and also other Unix-like OSes. Understand general architecture of the operating system and know how to write one from #link("https://youtu.be/vbZU7ABrAiE")[scratch].
-
-= Miscellaneous
-- Languages: English - fluent, Chinese - native, Taiwanese - native, Japanese - N3.
-- Member of `Tauri`, `rust-tw`, and more, contributed to `rust`, `async-std`, `veloren`, `tauri`, `riscv-opcodes`, `grcov`, `windows-rs`, `gtk-rs`, `winit`, and other projects.
+- *General*: C++, Golang, TypeScript, Python, Rust
+- *Frontend*: Svelte, React, Solid
+- *Backend*: Echo, Axum
+- *Other Tools*: Linux, Git, Docker, CMake, GitHub Actions
